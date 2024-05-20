@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300&display=swap');
+/*Essa fonte é recomendação de um colega que é progamador */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif; 
+}
+
+/* Estilos para objetos gerais */
+html{
+    scroll-behavior: smooth;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+section{
+    padding: 50px 4%;
+    border-bottom: 1px solid #F2F2F2;
+}
+
+section h2{
+    font-size: 2em;
+    margin-bottom: 25px;
+}
+
+section h3{
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 20px;
+}
+
+/* EFEITOS NA LISTA */
+.list ul {
+  position: relative;
+}
+.list ul li {
+  position: relative;
+  color: #F29325;
+  list-style: none;
+  margin: 4px 0;
+  border-left: 4px solid #025259;
+  padding-left: 5px;
+  transition: 0.5s;
+  font-size: 20px;
+}
+.list ul li:hover {
+  left: 2px;
+  color: #000;
+  font-style: strong;	
+}
+
+.servicos li {
+	font-size: 18px;
+}
+
+/*FIM DO EFEITO DAS LISTAS E INICIO DOS ESTILOS NO BODY*/
+
+.container{
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.container1{ 
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.container1 img {
+	margin: 10px;
+	padding-bottom: 15px;
+	float: left;
+	width:15%;
+	position: relative
+}
+
+header{
+    background-color: black;
+    width: 100%;
+    padding: 15px 4%;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+.menu{
+    width: 50%;
+}
+
+.menu nav a{
+    color: #c4c4c4;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 30px;
+    padding-bottom: 8px;
+    position: relative;
+}
+
+.menu nav a:hover{
+    color: #ffffff;
+}
+
+/* Estilo para os cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  padding: 15px;
+  width: 25%;
+  align-items: center
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  width: 45%;
+  margin: 10px;
+  background-color: #FFF;
+  padding: 20px;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 16px;
+  color: #666;
+}
+
+/* ESTILO PARA O FORMULÁRIO */
+form {
+			width: 400px;
+			margin: 0 left;
+		}
+		
+		label {
+			display: block;
+			margin-top: 10px;
+		}
+		
+		input[type="text"], input[type="email"], textarea {
+			width: 150%;
+			padding: 5px;
+		}
+		
+		input[type="submit"] {
+			margin-top: 10px;
+		}
